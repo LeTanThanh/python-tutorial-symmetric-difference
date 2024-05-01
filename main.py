@@ -1,2 +1,14 @@
 if __name__ == "__main__":
-  print("Python Symmetric Difference")
+  # Using the symmetric_difference() method to find the symmetric difference of sets
+
+  """
+  new_set = set1.symmetric_difference(set2, set3,...)
+  """
+
+  s1 = {"Python", "Java", "C++"}
+  s2 = {"C#", "Java", "C++"}
+  s = s1.symmetric_difference(s2)
+
+  print(s1)
+  print(s2)
+  print(s)
