@@ -26,3 +26,18 @@ if __name__ == "__main__":
   print(s1)
   print(s2)
   print(s)
+
+  # The symmetric_difference() method vs symmetric difference operator (^)
+
+  scores = {7, 8, 9}
+  ratings = [8, 9, 10]
+  new_set = scores.symmetric_difference(ratings)
+
+  print(scores)
+  print(ratings)
+  print(new_set)
+
+  scores = {7, 8, 9}
+  ratings = [8, 9, 10]
+  # new_set = scores ^ ratings
+  # TypeError
