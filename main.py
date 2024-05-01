@@ -12,3 +12,17 @@ if __name__ == "__main__":
   print(s1)
   print(s2)
   print(s)
+
+  # Using the symmetric difference operator(^) to find the symmetric difference of sets
+
+  """
+  new_set = set1 ^ set2 ^...
+  """
+
+  s1 = {"Python", "Java", "C++"}
+  s2 = {"C#", "Java", "C++"}
+  s = s1 ^ s2
+
+  print(s1)
+  print(s2)
+  print(s)
